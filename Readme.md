@@ -1,2 +1,2 @@
-                                                                            WELCOME TO LEARNT.
+..................WELCOME TO LEARNT............................
 
