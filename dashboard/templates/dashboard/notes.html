@@ -1,4 +1,4 @@
-{% extends 'dashboard/base.html' %} 
+{% extends 'dashboard/base.html' %}
 {% load static %}
 {% block content %}
 
@@ -25,9 +25,11 @@
 <br><br>
 <div class="container">
     <form method="POST">
+        {% csrf_token %}
         <fieldset class="form-group">
             <legend class="border-bottom mb-4">Create Notes</legend>
         </fieldset>
+        {{ form }}
         <div class="form-group">
             <button href="" class="btn btn-outline-info" type="submit">
                 Create
