@@ -32,5 +32,13 @@ class Todo(models.Model):
 
     def __str__(self):
         return self.title
+# class SocialPosts(models.Model):
+#     user = models.ForeignKey(User, on_delete=models.CASCADE)
+#     text = models.TextField()
+#     posted = models.BooleanField(default=False)
+#
+#     def __str__(self):
+#         return self.text
+
 
 

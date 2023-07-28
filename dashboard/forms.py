@@ -57,6 +57,9 @@ class UserRegistrationForm(UserCreationForm):
         model = User
         fields = ['username', 'password1', 'password2']
 
-
+# class UserLogout(UserRegistrationForm):
+#     class Meta:
+#         model = user
+#         fields = ['name', 'address', 'email']
 
 

@@ -310,8 +310,8 @@ def conversion(request):
     else:
         form = ConversionForm()
         context = {
-            'form':form,
-            'input':False
+            'form': form,
+            'input': False
         }
     return render(request, "dashboard/conversion.html", context)
 
@@ -351,6 +351,7 @@ def profile(request):
 
     return render(request, "dashboard/profile.html", context)
 
+# def social(request):
 
 
 
